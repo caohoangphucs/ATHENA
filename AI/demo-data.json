@@ -1,0 +1,40 @@
+{
+  "userBehaviorData": {
+    "totalUsers": 1250,
+    "activeUsers": 890,
+    "newUsers": 156,
+    "userSegments": {
+      "premium": 234,
+      "standard": 567,
+      "basic": 449
+    },
+    "userActivities": {
+      "dailyActive": 456,
+      "weeklyActive": 789,
+      "monthlyActive": 890
+    },
+    "userBehavior": {
+      "avgSessionTime": "12.5 minutes",
+      "mostUsedFeatures": ["Dashboard", "Analytics", "Reports"],
+      "conversionRate": "23.4%"
+    },
+    "detailedAnalytics": {
+      "engagementMetrics": {
+        "pageViews": 15420,
+        "bounceRate": "34.2%",
+        "timeOnSite": "8.7 minutes"
+      },
+      "userJourney": {
+        "signupToFirstAction": "2.3 days",
+        "firstActionToPurchase": "5.7 days",
+        "retentionRate": "67.8%"
+      },
+      "featureUsage": {
+        "dashboard": 89.2,
+        "analytics": 67.4,
+        "reports": 45.8,
+        "settings": 23.1
+      }
+    }
+  }
+}
