@@ -30,5 +30,9 @@ class MockChain:
         self.ensure(addr)
         return self.balances[addr]
 
+    def reset(self) -> None:
+        """Reset all balances to empty state"""
+        self.balances.clear()
+
 
 CHAIN = MockChain()
